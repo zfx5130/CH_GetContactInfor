@@ -55,8 +55,8 @@
 		80317CEC1DBA106C003B2105 /* CH_GetContactInforUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CH_GetContactInforUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80317CF01DBA106C003B2105 /* CH_GetContactInforUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CH_GetContactInforUITests.m; sourceTree = "<group>"; };
 		80317CF21DBA106C003B2105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80317D011DBA10C8003B2105 /* UIViewController+getContactInfor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+getContactInfor.h"; path = "../UIViewController+getContactInfor.h"; sourceTree = "<group>"; };
-		80317D021DBA10C8003B2105 /* UIViewController+getContactInfor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+getContactInfor.m"; path = "../UIViewController+getContactInfor.m"; sourceTree = "<group>"; };
+		80317D011DBA10C8003B2105 /* UIViewController+getContactInfor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+getContactInfor.h"; sourceTree = "<group>"; };
+		80317D021DBA10C8003B2105 /* UIViewController+getContactInfor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+getContactInfor.m"; sourceTree = "<group>"; };
 		80317D061DBA1147003B2105 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		80317D081DBA114E003B2105 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 		80317D0A1DBA1159003B2105 /* ContactsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContactsUI.framework; path = System/Library/Frameworks/ContactsUI.framework; sourceTree = SDKROOT; };
@@ -114,7 +114,8 @@
 		80317CCA1DBA106C003B2105 /* CH_GetContactInfor */ = {
 			isa = PBXGroup;
 			children = (
-				80317D041DBA1108003B2105 /* Category */,
+				80317D011DBA10C8003B2105 /* UIViewController+getContactInfor.h */,
+				80317D021DBA10C8003B2105 /* UIViewController+getContactInfor.m */,
 				80317CCE1DBA106C003B2105 /* AppDelegate.h */,
 				80317CCF1DBA106C003B2105 /* AppDelegate.m */,
 				80317CD11DBA106C003B2105 /* ViewController.h */,
@@ -152,15 +153,6 @@
 				80317CF21DBA106C003B2105 /* Info.plist */,
 			);
 			path = CH_GetContactInforUITests;
-			sourceTree = "<group>";
-		};
-		80317D041DBA1108003B2105 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				80317D011DBA10C8003B2105 /* UIViewController+getContactInfor.h */,
-				80317D021DBA10C8003B2105 /* UIViewController+getContactInfor.m */,
-			);
-			path = Category;
 			sourceTree = "<group>";
 		};
 		80317D051DBA1147003B2105 /* Frameworks */ = {
@@ -544,6 +536,7 @@
 				80317CF71DBA106C003B2105 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80317CF81DBA106C003B2105 /* Build configuration list for PBXNativeTarget "CH_GetContactInforTests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +545,7 @@
 				80317CFA1DBA106C003B2105 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80317CFB1DBA106C003B2105 /* Build configuration list for PBXNativeTarget "CH_GetContactInforUITests" */ = {
 			isa = XCConfigurationList;
@@ -560,6 +554,7 @@
 				80317CFD1DBA106C003B2105 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
